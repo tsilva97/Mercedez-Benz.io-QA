@@ -1,0 +1,92 @@
+//To add a valid element to ths list just write it's name and then on the next line the xpath
+//Please make sure the name of your element is unique
+
+agreeButton
+//*[contains(@class, 'btn-agree')]
+
+categoryMen
+/html/body/div[1]/div/div/div[3]/div/div[2]/div[2]/utils-content-carousel/div/div/div[2]/ui-helper-slick/div/div/div[2]/div/div/div/a
+
+categoryWomen
+/html/body/div[1]/div/div/div[3]/div/div[2]/div[2]/utils-content-carousel/div/div/div[2]/ui-helper-slick/div/div/div[1]/div/div/div/a
+
+crystalBracelet
+/html/body/div[1]/div/div/div[3]/div/div[1]/div/pg-grid/div/div/div[3]/div[10]/utils-product-tile-large/div/a
+
+bomberJacket
+/html/body/div[1]/div/div/div[3]/div/div[1]/div/pg-grid/div/div/div[3]/div[7]/utils-product-tile-large/div/a
+
+amgCap
+/html/body/div[1]/div/div/div[3]/div/div[1]/div/pg-grid/div/div/div[3]/div[3]/utils-product-tile-large/div/a
+
+addToBasket
+/html/body/div[1]/div/div/div[3]/div/div[1]/div/pdp-grid/div[1]/div[2]/utils-sticky-bar[1]/ng-transclude/div/div/pdp-buy-box-add-to-basket[1]/div/div/div/div[2]/button
+
+goToBasket
+//*[text()=' Go to shopping basket']
+
+continueShopping
+//*[text()=' Continue shopping']
+
+goBack
+/html/body/div[1]/div/div/div[2]/div/shopnav-main/div/div[3]/div/div/div/utils-breadcrumb/div/nav/ul/li[1]/span/a/span
+
+addressAndDelivery
+//*[contains(@class, 'dcp-co-func-footer__cta-primary') and text()='Continue to address and delivery']
+
+guestUserMail
+//*[@id="dcp-login-guest-user-email"]
+
+mrButton
+//*[text()='Mr']
+
+msButton
+//*[text()='Ms']
+
+firstNameSubmit
+//*[@id="co_payment_address-firstName"]
+
+lastNameSubmit
+//*[@id="co_payment_address-lastName"]
+
+streetName
+//*[@id="co_payment_address-line1"]
+
+streetNumber
+//*[@id="co_payment_address-line2"]
+
+postalCode
+//*[@id="co_payment_address-postalCode"]
+
+townName
+//*[@id="co_payment_address-town"]
+
+day
+//input[@placeholder='DD']
+
+month
+//input[@placeholder='MM']
+
+year
+//input[@placeholder='YYYY']
+
+countrySelector
+/html/body/div[1]/div/div/div[2]/div/div[4]/co-grid-shipping/div/div/div/div/div[1]/co-payment-address/div/div[1]/utils-dynamic-form/div/form/div[7]/div/button
+
+spain
+//*[@id="co-address-payment"]/div[1]/utils-dynamic-form/div/form/div[7]/div/ul/li[29]/label
+
+paymentType
+//*[contains(@class, 'dcp-co-func-footer__cta-primary') and text()='Continue to payment type']
+
+creditCard
+//*[@id="dcp-co-payment-modes-container"]/div[1]/div/div[1]/div/label
+
+visa
+//*[@id="dcp-co-payment-modes-container"]/div[1]/div[2]/div/div[1]/label
+
+paypal
+//*[@id="dcp-co-payment-modes-container"]/div[2]/div[1]/div[1]/div/label
+
+verificationAndPlacement
+//*[contains(@class, 'dcp-co-func-footer__cta-primary') and text()='Continue to verification and order placement']

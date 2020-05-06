@@ -1,0 +1,62 @@
+//To add a valid element to ths list just write it's name and then on the next line the value to be tested
+//Please make sure the name of your element is unique
+
+url
+https://shop.mercedes-benz.com/en-gb/collection/
+
+email
+sherlock.holmes@gmail.com
+
+firstName
+Sherlock
+
+lastName
+Holmes
+
+streetName
+Baker Street
+
+streetNumber
+221B
+
+postCode
+SP2 0FL
+
+townName
+London
+
+day
+6
+
+month
+1
+
+year
+1954
+
+email2
+nairobi.papel@yahoo.com
+
+firstName2
+Ágata
+
+lastName2
+Jiménez
+
+streetName2
+Calle de Alcalá
+
+streetNumber2
+48
+
+townName2
+Madrid
+
+day2
+14
+
+month2
+10
+
+year2
+1987
