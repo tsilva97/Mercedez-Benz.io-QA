@@ -2,7 +2,6 @@ package actions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Setup {
@@ -21,11 +20,5 @@ public class Setup {
         return driver;
     }
 
-    public static EdgeDriver edge() {
-
-        WebDriverManager.edgedriver().setup();
-        EdgeDriver driver = new EdgeDriver();
-        return driver;
-    }
 }
 
