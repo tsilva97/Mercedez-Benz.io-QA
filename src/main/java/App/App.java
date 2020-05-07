@@ -1,8 +1,8 @@
-package org.example.untitled;
+package App;
 
 import CLI.MainCLI;
 
-public class MainPage {
+public class App {
 
     public static void main(String[] args) {
 
